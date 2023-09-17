@@ -70,55 +70,23 @@ header img{
     height: 100px;
     box-shadow: 0px 4px 5px green;
     padding-top: 2px; 
+    transition: 0.3s ease-out;
 }
 .type1:hover{
     content: url('image/pacman.png');
-    transition: 0.3s;
+    transition: 0.3s  ease-in;
     height: 120px;
 }
 .type2:hover{
     content: url('image/rimuru.png');
-    transition: 0.3s;
+    transition: 0.3s  ease-in;
     height: 120px;
 }
 .type3:hover{
     content: url('image/mario.png');
-    transition: 0.3s;
+    transition: 0.3s ease-in;
     height: 120px;
 }
-
-/*
-input[type="checkbox"] {
-    content: url('image/Jakeframep1.png');
-    appearance: none;
-    border-radius: 15px;
-    width: 100px;
-    height: 100px;
-    box-shadow: 0px 4px 5px green;
-}
-
-.type1 input[type="checkbox"]:checked{
-    content: url('image/pacman.png');
-	transition: 0.3s;
-    height: 120px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 5px green;
-}
-.type2 input[type="checkbox"]:checked{
-    content: url('image/rimuru.png');
-	transition: 0.3s;
-    height: 120px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 5px green;
-}
-.type3 input[type="checkbox"]:checked{
-    content: url('image/mario.png');
-	transition: 0.3s;
-    height: 120px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 5px grey;
-}
-*/
 h2{
 	font-family: adventure;
     color: rgb(255, 187, 0);
